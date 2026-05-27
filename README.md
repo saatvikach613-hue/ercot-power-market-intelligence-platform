@@ -24,20 +24,59 @@ Quantitative analysis of ERCOT's energy transition from 2015 to 2024, covering g
 
 ## Visualizations
 
-Interactive charts — click to open in browser:
+Static previews are shown below. Click any chart to open the interactive Plotly HTML version.
 
-| Chart | Description |
-|-------|-------------|
-| [Generation Mix 2015–2024](outputs/charts/chart_1a_generation_mix_stacked.html) | ERCOT fuel mix transformation stacked area chart |
-| [Renewable Share Trend](outputs/charts/chart_1b_renewable_share_trend.html) | Renewable % growth from 10.3% to 30.2% |
-| [Price Cannibalization](outputs/charts/chart_2a_price_cannibalization_scatter.html) | Gas-implied price proxy vs renewable penetration |
-| [Gas–Electricity Correlation](outputs/charts/chart_2b_gas_electricity_correlation.html) | Henry Hub price vs generation mix correlation |
-| [Winter Storm Uri Timeline](outputs/charts/chart_3a_storm_uri_timeline.html) | ERCOT load spike during February 2021 event |
-| [Uri Fuel Failures](outputs/charts/chart_3b_uri_fuel_failures.html) | Outage breakdown by fuel type |
-| [Duck Curve Evolution](outputs/charts/chart_4a_duck_curve_evolution.html) | Net load curve shift 2019–2024 |
-| [Duck Curve Depth](outputs/charts/chart_4b_duck_curve_depth.html) | Ramp requirement growth over time |
-| [Renewable Forecast 2030](outputs/charts/chart_5a_renewable_forecast_2030.html) | Holt-Winters projection to 45.1% by Dec 2030 |
-| [Revenue Adequacy Index](outputs/charts/chart_7c_revenue_adequacy_index.html) | Scarcity revenue proxy 2015–2024 |
+### Generation Mix 2015-2024
+
+[![ERCOT fuel mix transformation stacked area chart](outputs/charts/chart_1a_generation_mix_stacked.png)](outputs/charts/chart_1a_generation_mix_stacked.html)
+
+### Renewable Share Trend
+
+[![Renewable share trend from 2015 to 2024](outputs/charts/chart_1b_renewable_share_trend.png)](outputs/charts/chart_1b_renewable_share_trend.html)
+
+### Price Cannibalization Proxy
+
+[![Gas-implied price proxy versus renewable penetration](outputs/charts/chart_2a_price_cannibalization_scatter.png)](outputs/charts/chart_2a_price_cannibalization_scatter.html)
+
+### Gas-Electricity Correlation
+
+[![Henry Hub gas price and electricity price proxy correlation](outputs/charts/chart_2b_gas_electricity_correlation.png)](outputs/charts/chart_2b_gas_electricity_correlation.html)
+
+### Winter Storm Uri Timeline
+
+[![ERCOT load spike during Winter Storm Uri](outputs/charts/chart_3a_storm_uri_timeline.png)](outputs/charts/chart_3a_storm_uri_timeline.html)
+
+### Uri Fuel Failures
+
+[![Winter Storm Uri outage breakdown by fuel type](outputs/charts/chart_3b_uri_fuel_failures.png)](outputs/charts/chart_3b_uri_fuel_failures.html)
+
+### Duck Curve Evolution
+
+[![ERCOT net load curve shift from 2019 to 2024](outputs/charts/chart_4a_duck_curve_evolution.png)](outputs/charts/chart_4a_duck_curve_evolution.html)
+
+### Duck Curve Depth
+
+[![ERCOT duck curve depth and ramp requirement growth](outputs/charts/chart_4b_duck_curve_depth.png)](outputs/charts/chart_4b_duck_curve_depth.html)
+
+### Renewable Forecast 2030
+
+[![Holt-Winters renewable share forecast to 2030](outputs/charts/chart_5a_renewable_forecast_2030.png)](outputs/charts/chart_5a_renewable_forecast_2030.html)
+
+### Scarcity Hours
+
+[![ERCOT scarcity hours trend](outputs/charts/chart_7a_scarcity_hours_declining.png)](outputs/charts/chart_7a_scarcity_hours_declining.html)
+
+### Curtailment Pressure
+
+[![ERCOT curtailment pressure trend](outputs/charts/chart_7b_curtailment_pressure_growing.png)](outputs/charts/chart_7b_curtailment_pressure_growing.html)
+
+### Revenue Adequacy Index
+
+[![ERCOT revenue adequacy index from 2015 to 2024](outputs/charts/chart_7c_revenue_adequacy_index.png)](outputs/charts/chart_7c_revenue_adequacy_index.html)
+
+### Market Adequacy Synthesis
+
+[![ERCOT market adequacy synthesis chart](outputs/charts/chart_7d_market_adequacy_synthesis.png)](outputs/charts/chart_7d_market_adequacy_synthesis.html)
 
 ## Project Structure
 
