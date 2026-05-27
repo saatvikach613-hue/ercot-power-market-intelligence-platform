@@ -1,0 +1,58 @@
+ERCOT Power Market Intelligence — Data Quality Report
+============================================================
+
+Date range - ercot_generation
+-----------------------------
+      table_name   earliest     latest  total_rows  years_covered
+ercot_generation 2015-01-01 2024-12-01         840             10
+
+Date range - ercot_load
+-----------------------
+table_name            earliest              latest  total_rows  years_covered
+ercot_load 2015-01-01 01:00:00 2024-12-31 23:00:00      789039             10
+
+Date range - gas_prices
+-----------------------
+table_name   earliest     latest  total_rows  years_covered
+gas_prices 2015-01-30 2024-12-31         120             10
+
+Null check - ercot_generation
+-----------------------------
+ null_generation  null_fuel_type  null_year  null_pct
+             0.0             0.0        0.0       0.0
+
+Fuel type distribution
+----------------------
+  fuel_type  months  total_twh  avg_monthly_share_pct
+natural_gas     120    2474.80                  49.55
+       coal     120     971.12                  19.95
+       wind     120     879.58                  18.00
+    nuclear     120     405.05                   8.35
+      solar     120     144.33                   2.69
+      other     120      59.83                   1.24
+      hydro     120      10.27                   0.22
+
+Monthly percentage check
+------------------------
+PASS: All monthly percentages sum to approximately 100%
+
+Load sanity - zone TOTAL
+------------------------
+    min_load     max_load     avg_load  negative_values  extreme_values
+24337.467368 85464.116394 44788.056948              0.0             0.0
+
+Generation year coverage
+------------------------
+ year  months_present  fuel_types_present
+ 2015              12                   7
+ 2016              12                   7
+ 2017              12                   7
+ 2018              12                   7
+ 2019              12                   7
+ 2020              12                   7
+ 2021              12                   7
+ 2022              12                   7
+ 2023              12                   7
+ 2024              12                   7
+
+Report generated successfully
