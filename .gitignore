@@ -20,6 +20,10 @@ data/raw/**/*.xls
 data/raw/**/*.xlsx
 data/raw/**/*.zip
 data/raw/**/*.csv
+data/processed/load_clean.csv
+
+# Generated binary chart previews
+outputs/charts/*.png
 
 # Local database
 ercot_intelligence.db
