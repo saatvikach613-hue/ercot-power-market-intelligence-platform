@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+pycache/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+.ipython/
+.jupyter/
+.jupyter_data/
+.jupyter_runtime/
+.kaleido_chrome/
+.env
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data (raw stays local; never commit large downloads)
+data/raw/
+data/raw/**/*.xls
+data/raw/**/*.xlsx
+data/raw/**/*.zip
+data/raw/**/*.csv
+
+# Local database
+ercot_intelligence.db
+
+# OS
+.DS_Store
+Thumbs.db
